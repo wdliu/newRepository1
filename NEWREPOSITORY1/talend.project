@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
   <TalendProperties:Project xmi:id="_6a1pcWqbEeaqxOTkNhNg-A" label="newRepository1" description="" language="java" technicalLabel="NEWREPOSITORY1" creationDate="2016-08-25T16:07:30.527+0800" author="_6a1pcmqbEeaqxOTkNhNg-A" productVersion="Talend Data Fabric-6.3.0.20160818_1937-SNAPSHOT" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;git@github.com:wdliu/newRepository1.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI">
+    <technicalStatus xmi:id="_7QF2cGqbEeaqxOTkNhNg-A" label="development" code="DEV"/>
+    <technicalStatus xmi:id="_7QF2cWqbEeaqxOTkNhNg-A" label="testing" code="TEST"/>
+    <technicalStatus xmi:id="_7QF2cmqbEeaqxOTkNhNg-A" label="production" code="PROD"/>
+    <documentationStatus xmi:id="_7QCzIGqbEeaqxOTkNhNg-A" label="unchecked" code="UCK"/>
+    <documentationStatus xmi:id="_7QCzIWqbEeaqxOTkNhNg-A" label="checked" code="CHK"/>
+    <documentationStatus xmi:id="_7QCzImqbEeaqxOTkNhNg-A" label="validated" code="VAL"/>
     <migrationTask xmi:id="_7PVogGqbEeaqxOTkNhNg-A" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_7PVogWqbEeaqxOTkNhNg-A" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_7PVogmqbEeaqxOTkNhNg-A" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
