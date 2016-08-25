@@ -359,7 +359,6 @@
     <migrationTask xmi:id="_9KERB2qbEeaqxOTkNhNg-A" id="org.talend.testcontainer.core.ui.migration.TestCaseParentVersionMigrationTask" breaks="6.1.1" version="6.1.1" status="noimpact"/>
     <migrationTask xmi:id="_9KERCGqbEeaqxOTkNhNg-A" id="org.talend.repository.model.migration.UpdateELTComponentMigrationTask" breaks="6.1.1" version="6.1.2" status="noimpact"/>
     <migrationTask xmi:id="_9KERCWqbEeaqxOTkNhNg-A" id="org.talend.repository.model.migration.AddDefaultVersionValueForElasticsearchLookupInput" breaks="6.2.0" version="6.2.1" status="noimpact"/>
-    <migrationTask xmi:id="_9KERCmqbEeaqxOTkNhNg-A" id="org.talend.repository.model.migration.AutoUpdateRelationsMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_1SmH0GqcEeaEbaO2r01vVg" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_1SmH0WqcEeaEbaO2r01vVg" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_1SmH0mqcEeaEbaO2r01vVg" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
@@ -380,6 +379,8 @@
     <migrationTask xmi:id="_1SmH4WqcEeaEbaO2r01vVg" id="org.talend.repository.model.migration.RemoveProjectLibsFolder" breaks="6.0.0" version="6.0.1" status="noimpact"/>
     <migrationTask xmi:id="_1SmH4mqcEeaEbaO2r01vVg" id="org.talend.designer.maven.ui.ConfigMavenRepositoryRemove" breaks="6.0.1" version="6.0.2" status="ok"/>
     <migrationTask xmi:id="_1SmH42qcEeaEbaO2r01vVg" id="org.talend.mdm.repository.core.migrate.UpdateOperatorMigrationTask" breaks="6.2.0" version="6.2.0" status="ok"/>
+    <migrationTask xmi:id="_2sbBgGqcEeaEbaO2r01vVg" id="org.talend.repository.model.migration.FixProjectResourceLink" breaks="5.1.1" version="5.1.2" status="noimpact"/>
+    <migrationTask xmi:id="_2sbBgWqcEeaEbaO2r01vVg" id="org.talend.repository.model.migration.AutoUpdateRelationsMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_6a1pcmqbEeaqxOTkNhNg-A" login="admin@company.com" firstName="admin" lastName="admin" type="MDM" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_0jSx0GqcEeaEbaO2r01vVg" login="1admin@company.com" firstName="admin1" lastName="admin1" type="MDM" additionnalData="{}"/>
